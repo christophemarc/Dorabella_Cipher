@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, dataset, or analysis, please cite it as below."
+title: "Two-Dimensional Geometric Signatures, Cross-Corpus Forensic Analysis, and Generative Model Selection for Elgar's Dorabella Cipher (1897)"
+type: software
+date-released: "2026-11-20"
+license: MIT
+keywords:
+  - dorabella-cipher
+  - edward-elgar
+  - historical-cryptology
+  - statistical-cryptanalysis
+  - hoax-cryptogram-detection
+  - reproducible-research
+authors:
+  - family-names: "Marcheux"
+    given-names: "Christophe"
+abstract: "Reproducible 2D geometric cryptanalysis and cross-corpus study of Elgar's Dorabella Cipher (1897). Computational implementation and drafting assisted by Arena.ai Agent Mode under human direction and verification."

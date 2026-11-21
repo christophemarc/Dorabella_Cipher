@@ -1,0 +1,303 @@
+{
+  "line_nonstationarity": {
+    "lines": [
+      {
+        "line": 1,
+        "length": 29,
+        "n_W": 17,
+        "pct_W": 58.62,
+        "crossings_wv": 9,
+        "flips_180": 8,
+        "flips_180_same": 2,
+        "max_no_rep_arc": 13,
+        "arcs": [
+          9,
+          11,
+          9
+        ]
+      },
+      {
+        "line": 2,
+        "length": 31,
+        "n_W": 22,
+        "pct_W": 70.97,
+        "crossings_wv": 4,
+        "flips_180": 10,
+        "flips_180_same": 7,
+        "max_no_rep_arc": 10,
+        "arcs": [
+          13,
+          12,
+          6
+        ]
+      },
+      {
+        "line": 3,
+        "length": 27,
+        "n_W": 22,
+        "pct_W": 81.48,
+        "crossings_wv": 5,
+        "flips_180": 8,
+        "flips_180_same": 4,
+        "max_no_rep_arc": 9,
+        "arcs": [
+          7,
+          10,
+          10
+        ]
+      }
+    ],
+    "chi2_W_across_lines": {
+      "chi2": 3.504,
+      "p": 0.1734
+    },
+    "spearman_W_position": {
+      "rho": 0.167,
+      "p": 0.1221
+    },
+    "chi2_arcs_across_lines": {
+      "chi2": 2.839,
+      "p": 0.585
+    }
+  },
+  "elgar_melody_corpus_notes": 269,
+  "generative_competition": {
+    "dorabella_observed": {
+      "IC": 0.0585,
+      "W_pct": 70.1149,
+      "Z_WV": -4.761,
+      "flips_180_all": 27.0,
+      "flips_180_same": 13.0,
+      "chi2_OA": 40.1822,
+      "max_no_rep_arc": 13.0,
+      "drift_W_pct": 22.8608
+    },
+    "models": [
+      {
+        "id": "G1_Text_EN_MASC",
+        "label": "Texte anglais MASC (clé aléat.)",
+        "means": {
+          "IC": 0.0641,
+          "W_pct": 50.6782,
+          "Z_WV": 0.1766,
+          "flips_180_all": 10.804,
+          "flips_180_same": 3.61,
+          "chi2_OA": 40.9049,
+          "max_no_rep_arc": 10.34,
+          "drift_W_pct": 0.6513
+        },
+        "sds": {
+          "IC": 0.0058,
+          "W_pct": 9.4869,
+          "Z_WV": 1.107,
+          "flips_180_all": 3.481,
+          "flips_180_same": 2.1822,
+          "chi2_OA": 10.2403,
+          "max_no_rep_arc": 3.081,
+          "drift_W_pct": 12.3218
+        },
+        "z_devs": {
+          "IC": -0.96,
+          "W_pct": 2.05,
+          "Z_WV": -4.46,
+          "flips_180_all": 4.65,
+          "flips_180_same": 4.3,
+          "chi2_OA": -0.07,
+          "max_no_rep_arc": 0.86,
+          "drift_W_pct": 1.8
+        },
+        "rms_z_capped20": 2.94
+      },
+      {
+        "id": "G2_Calligraphic_calibrated",
+        "label": "Calligraphique (posture W/V + miroir 180°)",
+        "means": {
+          "IC": 0.0692,
+          "W_pct": 79.0046,
+          "Z_WV": -4.8154,
+          "flips_180_all": 22.214,
+          "flips_180_same": 11.426,
+          "chi2_OA": 32.9557,
+          "max_no_rep_arc": 8.066,
+          "drift_W_pct": 10.7913
+        },
+        "sds": {
+          "IC": 0.0109,
+          "W_pct": 7.9767,
+          "Z_WV": 1.2057,
+          "flips_180_all": 4.0591,
+          "flips_180_same": 3.1421,
+          "chi2_OA": 9.9787,
+          "max_no_rep_arc": 2.2781,
+          "drift_W_pct": 18.7803
+        },
+        "z_devs": {
+          "IC": -0.97,
+          "W_pct": -1.11,
+          "Z_WV": 0.05,
+          "flips_180_all": 1.18,
+          "flips_180_same": 0.5,
+          "chi2_OA": 0.72,
+          "max_no_rep_arc": 2.17,
+          "drift_W_pct": 0.64
+        },
+        "rms_z_capped20": 1.09
+      },
+      {
+        "id": "G3a_Elgar_Music_clockwise",
+        "label": "Musique Elgar (gamme horaire Atance)",
+        "means": {
+          "IC": 0.0804,
+          "W_pct": 54.3471,
+          "Z_WV": 1.8266,
+          "flips_180_all": 3.102,
+          "flips_180_same": 0.328,
+          "chi2_OA": 20.8543,
+          "max_no_rep_arc": 4.828,
+          "drift_W_pct": 0.0769
+        },
+        "sds": {
+          "IC": 0.0132,
+          "W_pct": 1.8543,
+          "Z_WV": 0.6796,
+          "flips_180_all": 1.5491,
+          "flips_180_same": 0.4695,
+          "chi2_OA": 7.2213,
+          "max_no_rep_arc": 0.8868,
+          "drift_W_pct": 8.8047
+        },
+        "z_devs": {
+          "IC": -1.65,
+          "W_pct": 8.5,
+          "Z_WV": -9.69,
+          "flips_180_all": 15.43,
+          "flips_180_same": 26.99,
+          "chi2_OA": 2.68,
+          "max_no_rep_arc": 9.22,
+          "drift_W_pct": 2.59
+        },
+        "rms_z_capped20": 10.64
+      },
+      {
+        "id": "G3b_Elgar_Music_tetrachord_W",
+        "label": "Musique Elgar (tétracorde central W)",
+        "means": {
+          "IC": 0.0808,
+          "W_pct": 72.1885,
+          "Z_WV": -1.4355,
+          "flips_180_all": 24.6,
+          "flips_180_same": 16.91,
+          "chi2_OA": 21.2341,
+          "max_no_rep_arc": 4.782,
+          "drift_W_pct": -0.3425
+        },
+        "sds": {
+          "IC": 0.0134,
+          "W_pct": 1.8582,
+          "Z_WV": 1.0177,
+          "flips_180_all": 3.7422,
+          "flips_180_same": 2.6612,
+          "chi2_OA": 7.2531,
+          "max_no_rep_arc": 0.8958,
+          "drift_W_pct": 9.9033
+        },
+        "z_devs": {
+          "IC": -1.66,
+          "W_pct": -1.12,
+          "Z_WV": -3.27,
+          "flips_180_all": 0.64,
+          "flips_180_same": -1.47,
+          "chi2_OA": 2.61,
+          "max_no_rep_arc": 9.17,
+          "drift_W_pct": 2.34
+        },
+        "rms_z_capped20": 3.77
+      },
+      {
+        "id": "G3c_Elgar_Music_random_key",
+        "label": "Musique Elgar (clé 8-ori aléatoire)",
+        "means": {
+          "IC": 0.0797,
+          "W_pct": 49.977,
+          "Z_WV": 1.373,
+          "flips_180_all": 12.244,
+          "flips_180_same": 7.696,
+          "chi2_OA": 21.3271,
+          "max_no_rep_arc": 4.806,
+          "drift_W_pct": 0.6649
+        },
+        "sds": {
+          "IC": 0.0133,
+          "W_pct": 10.4956,
+          "Z_WV": 2.3745,
+          "flips_180_all": 7.9481,
+          "flips_180_same": 5.7789,
+          "chi2_OA": 6.9111,
+          "max_no_rep_arc": 0.8879,
+          "drift_W_pct": 10.0104
+        },
+        "z_devs": {
+          "IC": -1.58,
+          "W_pct": 1.92,
+          "Z_WV": -2.58,
+          "flips_180_all": 1.86,
+          "flips_180_same": 0.92,
+          "chi2_OA": 2.73,
+          "max_no_rep_arc": 9.23,
+          "drift_W_pct": 2.22
+        },
+        "rms_z_capped20": 3.79
+      }
+    ]
+  },
+  "loocv_model_selection": [
+    {
+      "id": "0_IID_marginals",
+      "label": "Indépendant (IID, marginales)",
+      "extra_params": 0,
+      "loocv_ll": -173.832,
+      "delta_vs_iid": 0.0,
+      "perplexity": 7.548
+    },
+    {
+      "id": "1_Music_1D_chain",
+      "label": "Chaîne musicale 1D (DHABFCGE, a posteriori)",
+      "extra_params": 1,
+      "loocv_ll": -165.242,
+      "delta_vs_iid": 8.59,
+      "perplexity": 6.831
+    },
+    {
+      "id": "2_Mirror_180_only",
+      "label": "Réflexe miroir 180° seul",
+      "extra_params": 1,
+      "loocv_ll": -167.644,
+      "delta_vs_iid": 6.188,
+      "perplexity": 7.024
+    },
+    {
+      "id": "3_WV_posture_only",
+      "label": "Ségrégation posture W/V seule",
+      "extra_params": 2,
+      "loocv_ll": -164.848,
+      "delta_vs_iid": 8.984,
+      "perplexity": 6.799
+    },
+    {
+      "id": "4_WV_plus_Mirror180",
+      "label": "Posture W/V + Réflexe miroir 180°",
+      "extra_params": 4,
+      "loocv_ll": -161.807,
+      "delta_vs_iid": 12.025,
+      "perplexity": 6.563
+    },
+    {
+      "id": "5_Full_Markov_8x8",
+      "label": "Markov 8×8 complet (lissé)",
+      "extra_params": 56,
+      "loocv_ll": -166.027,
+      "delta_vs_iid": 7.805,
+      "perplexity": 6.893
+    }
+  ]
+}

@@ -1,0 +1,1074 @@
+{
+  "transcriptions": {
+    "Hauer_2025": {
+      "name": "Hauer_2025",
+      "basic": {
+        "n_tokens": 87,
+        "unique_symbols": 20,
+        "ic": 0.05854,
+        "doubles": 4,
+        "reversed_digrams": 12,
+        "chi2_ori_arc": 40.182,
+        "p_ori_arc": 0.000239,
+        "ori_arc_matrix": {
+          "A": [
+            1,
+            1,
+            7
+          ],
+          "B": [
+            5,
+            6,
+            4
+          ],
+          "C": [
+            5,
+            8,
+            1
+          ],
+          "D": [
+            4,
+            1,
+            0
+          ],
+          "E": [
+            0,
+            0,
+            4
+          ],
+          "F": [
+            4,
+            11,
+            8
+          ],
+          "G": [
+            4,
+            4,
+            1
+          ],
+          "H": [
+            6,
+            2,
+            0
+          ]
+        },
+        "mean_arc_by_ori": {
+          "A": 2.667,
+          "B": 1.933,
+          "C": 1.714,
+          "D": 1.2,
+          "E": 3.0,
+          "F": 2.174,
+          "G": 1.667,
+          "H": 1.25
+        }
+      },
+      "wv_segregation": {
+        "n_W": 61,
+        "pct_W": 70.11,
+        "n_V": 26,
+        "crossings": 18,
+        "expected": 36.46,
+        "sd": 3.877,
+        "z_wv": -4.761,
+        "top5_partitions": [
+          {
+            "group_a": "ADEH",
+            "group_b": "BCFG",
+            "crossings": 18,
+            "expected": 36.46,
+            "z": -4.761
+          },
+          {
+            "group_a": "ABDH",
+            "group_b": "CEFG",
+            "crossings": 28,
+            "expected": 42.53,
+            "z": -3.206
+          },
+          {
+            "group_a": "ADGH",
+            "group_b": "BCEF",
+            "crossings": 30,
+            "expected": 39.91,
+            "z": -2.332
+          },
+          {
+            "group_a": "ACDH",
+            "group_b": "BEFG",
+            "crossings": 32,
+            "expected": 42.21,
+            "z": -2.27
+          },
+          {
+            "group_a": "ACDE",
+            "group_b": "BFGH",
+            "crossings": 32,
+            "expected": 40.46,
+            "z": -1.963
+          }
+        ],
+        "all_35_z_values": [
+          -4.761,
+          -3.206,
+          -2.332,
+          -2.27,
+          -1.963,
+          -1.828,
+          -1.825,
+          -1.825,
+          -1.499,
+          -1.441,
+          -1.31,
+          -1.138,
+          -0.935,
+          -0.92,
+          -0.699,
+          -0.634,
+          -0.571,
+          -0.413,
+          -0.313,
+          0.325,
+          0.572,
+          0.572,
+          0.983,
+          0.983,
+          1.005,
+          1.139,
+          1.207,
+          1.288,
+          1.438,
+          1.835,
+          1.847,
+          1.907,
+          2.529,
+          2.893,
+          3.129
+        ],
+        "f_to_v_contacts": {
+          "obs": 1,
+          "total_f_contacts": 46,
+          "exp_mean": 13.76,
+          "p_le": 0.0
+        }
+      },
+      "massey_runs": [
+        {
+          "line": 1,
+          "start_1based": 1,
+          "end_1based": 13,
+          "length_glyphs": 13,
+          "length_transitions": 12
+        },
+        {
+          "line": 2,
+          "start_1based": 1,
+          "end_1based": 10,
+          "length_glyphs": 10,
+          "length_transitions": 9
+        },
+        {
+          "line": 3,
+          "start_1based": 4,
+          "end_1based": 12,
+          "length_glyphs": 9,
+          "length_transitions": 8
+        }
+      ],
+      "flips_180": {
+        "all_86": 27,
+        "intra_84": 26,
+        "same_arc": {
+          "count": 13,
+          "total": 27,
+          "pct": 48.15
+        },
+        "diff_arc": {
+          "count": 14,
+          "total": 59,
+          "pct": 23.73
+        },
+        "in_massey_runs": {
+          "count": 8,
+          "total": 29,
+          "pct": 27.59
+        },
+        "out_massey_runs": {
+          "count": 19,
+          "total": 57,
+          "pct": 33.33
+        },
+        "fisher_same_vs_diff": {
+          "odds_ratio": 2.985,
+          "p": 0.04362
+        },
+        "fisher_in_vs_out_massey": {
+          "odds_ratio": 0.762,
+          "p": 0.63193
+        },
+        "perm_free_token": {
+          "all_180": {
+            "obs": 27,
+            "exp_mean": 12.565,
+            "exp_sd": 3.155,
+            "z": 4.576,
+            "p_ge": 0.0
+          },
+          "same_arc_180": {
+            "obs": 13,
+            "exp_mean": 5.181,
+            "exp_sd": 2.179,
+            "z": 3.589,
+            "p_ge": 0.0014
+          },
+          "diff_arc_180": {
+            "obs": 14,
+            "exp_mean": 7.384,
+            "exp_sd": 2.49,
+            "z": 2.657,
+            "p_ge": 0.01062
+          }
+        },
+        "perm_ori_fixed_arcs": {
+          "diff_arc_180": {
+            "obs": 14,
+            "exp_mean": 8.624,
+            "exp_sd": 2.644,
+            "z": 2.033,
+            "p_ge": 0.03938
+          },
+          "in_massey_180": {
+            "obs": 8,
+            "exp_mean": 4.248,
+            "exp_sd": 1.914,
+            "z": 1.96,
+            "p_ge": 0.05266
+          }
+        },
+        "perm_intra_wv_fixed_arcs": {
+          "all_180": {
+            "obs": 27,
+            "exp_mean": 17.131,
+            "exp_sd": 3.493,
+            "z": 2.825,
+            "p_ge": 0.00468
+          },
+          "same_arc_180": {
+            "obs": 13,
+            "exp_mean": 5.814,
+            "exp_sd": 2.072,
+            "z": 3.469,
+            "p_ge": 0.00124
+          },
+          "diff_arc_180": {
+            "obs": 14,
+            "exp_mean": 11.316,
+            "exp_sd": 2.867,
+            "z": 0.936,
+            "p_ge": 0.2207
+          },
+          "in_massey_180": {
+            "obs": 8,
+            "exp_mean": 5.469,
+            "exp_sd": 2.026,
+            "z": 1.249,
+            "p_ge": 0.157
+          }
+        }
+      },
+      "arc_symmetry_180_exact105": {
+        "obs_mean_cosine": 0.9746,
+        "null_mean_cosine": 0.5986,
+        "null_sd_cosine": 0.1323,
+        "exact_rank_cosine": 1,
+        "exact_p_cosine": 0.00952,
+        "obs_mean_abs_diff": 0.1679,
+        "null_mean_abs_diff": 0.7651,
+        "exact_rank_abs_diff": 1,
+        "exact_p_abs_diff": 0.00952
+      },
+      "lag31_localization": {
+        "total_matches_of_56": 11,
+        "l1_l2_early_17": 1,
+        "l1_l2_late_12": 6,
+        "l2_l3_27": 4,
+        "l1_late_slice": [
+          "F2",
+          "C2",
+          "E3",
+          "E3",
+          "F2",
+          "B1",
+          "H1",
+          "H2",
+          "H1",
+          "C1",
+          "B3",
+          "F3"
+        ],
+        "l2_late_slice": [
+          "F2",
+          "C2",
+          "G2",
+          "F3",
+          "F1",
+          "B1",
+          "H1",
+          "D1",
+          "D1",
+          "H1",
+          "B3",
+          "F3"
+        ],
+        "l1_l2_late_matched_tokens": [
+          {
+            "l1_pos": 18,
+            "l2_pos": 20,
+            "token": "F2"
+          },
+          {
+            "l1_pos": 19,
+            "l2_pos": 21,
+            "token": "C2"
+          },
+          {
+            "l1_pos": 23,
+            "l2_pos": 25,
+            "token": "B1"
+          },
+          {
+            "l1_pos": 24,
+            "l2_pos": 26,
+            "token": "H1"
+          },
+          {
+            "l1_pos": 28,
+            "l2_pos": 30,
+            "token": "B3"
+          },
+          {
+            "l1_pos": 29,
+            "l2_pos": 31,
+            "token": "F3"
+          }
+        ]
+      }
+    },
+    "Hartmeier_2017": {
+      "name": "Hartmeier_2017",
+      "basic": {
+        "n_tokens": 87,
+        "unique_symbols": 20,
+        "ic": 0.05854,
+        "doubles": 4,
+        "reversed_digrams": 12,
+        "chi2_ori_arc": 39.648,
+        "p_ori_arc": 0.000289,
+        "ori_arc_matrix": {
+          "A": [
+            1,
+            1,
+            7
+          ],
+          "B": [
+            6,
+            6,
+            4
+          ],
+          "C": [
+            4,
+            8,
+            1
+          ],
+          "D": [
+            4,
+            1,
+            0
+          ],
+          "E": [
+            0,
+            0,
+            4
+          ],
+          "F": [
+            4,
+            11,
+            8
+          ],
+          "G": [
+            5,
+            4,
+            1
+          ],
+          "H": [
+            5,
+            2,
+            0
+          ]
+        },
+        "mean_arc_by_ori": {
+          "A": 2.667,
+          "B": 1.875,
+          "C": 1.769,
+          "D": 1.2,
+          "E": 3.0,
+          "F": 2.174,
+          "G": 1.6,
+          "H": 1.286
+        }
+      },
+      "wv_segregation": {
+        "n_W": 62,
+        "pct_W": 71.26,
+        "n_V": 25,
+        "crossings": 18,
+        "expected": 35.632,
+        "sd": 3.788,
+        "z_wv": -4.655,
+        "top5_partitions": [
+          {
+            "group_a": "ADEH",
+            "group_b": "BCFG",
+            "crossings": 18,
+            "expected": 35.63,
+            "z": -4.655
+          },
+          {
+            "group_a": "ABDH",
+            "group_b": "CEFG",
+            "crossings": 28,
+            "expected": 42.53,
+            "z": -3.206
+          },
+          {
+            "group_a": "ADGH",
+            "group_b": "BCEF",
+            "crossings": 30,
+            "expected": 39.91,
+            "z": -2.332
+          },
+          {
+            "group_a": "ACEG",
+            "group_b": "BDFH",
+            "crossings": 32,
+            "expected": 42.21,
+            "z": -2.27
+          },
+          {
+            "group_a": "ADEG",
+            "group_b": "BCFH",
+            "crossings": 30,
+            "expected": 37.98,
+            "z": -1.974
+          }
+        ],
+        "all_35_z_values": [
+          -4.655,
+          -3.206,
+          -2.332,
+          -2.27,
+          -1.974,
+          -1.882,
+          -1.861,
+          -1.825,
+          -1.683,
+          -1.499,
+          -1.31,
+          -1.229,
+          -1.134,
+          -1.035,
+          -0.776,
+          -0.68,
+          -0.662,
+          -0.634,
+          -0.313,
+          0.551,
+          0.701,
+          0.983,
+          0.983,
+          1.005,
+          1.038,
+          1.038,
+          1.083,
+          1.438,
+          1.519,
+          1.649,
+          1.835,
+          1.835,
+          2.893,
+          3.129,
+          3.177
+        ],
+        "f_to_v_contacts": {
+          "obs": 1,
+          "total_f_contacts": 46,
+          "exp_mean": 13.21,
+          "p_le": 0.0
+        }
+      },
+      "massey_runs": [
+        {
+          "line": 1,
+          "start_1based": 1,
+          "end_1based": 13,
+          "length_glyphs": 13,
+          "length_transitions": 12
+        },
+        {
+          "line": 2,
+          "start_1based": 1,
+          "end_1based": 10,
+          "length_glyphs": 10,
+          "length_transitions": 9
+        },
+        {
+          "line": 3,
+          "start_1based": 4,
+          "end_1based": 12,
+          "length_glyphs": 9,
+          "length_transitions": 8
+        }
+      ],
+      "flips_180": {
+        "all_86": 29,
+        "intra_84": 28,
+        "same_arc": {
+          "count": 13,
+          "total": 27,
+          "pct": 48.15
+        },
+        "diff_arc": {
+          "count": 16,
+          "total": 59,
+          "pct": 27.12
+        },
+        "in_massey_runs": {
+          "count": 9,
+          "total": 29,
+          "pct": 31.03
+        },
+        "out_massey_runs": {
+          "count": 20,
+          "total": 57,
+          "pct": 35.09
+        },
+        "fisher_same_vs_diff": {
+          "odds_ratio": 2.496,
+          "p": 0.08442
+        },
+        "fisher_in_vs_out_massey": {
+          "odds_ratio": 0.833,
+          "p": 0.81129
+        },
+        "perm_free_token": {
+          "all_180": {
+            "obs": 29,
+            "exp_mean": 13.068,
+            "exp_sd": 3.182,
+            "z": 5.006,
+            "p_ge": 0.0
+          },
+          "same_arc_180": {
+            "obs": 13,
+            "exp_mean": 5.174,
+            "exp_sd": 2.184,
+            "z": 3.583,
+            "p_ge": 0.0016
+          },
+          "diff_arc_180": {
+            "obs": 16,
+            "exp_mean": 7.895,
+            "exp_sd": 2.545,
+            "z": 3.185,
+            "p_ge": 0.0034
+          }
+        },
+        "perm_ori_fixed_arcs": {
+          "diff_arc_180": {
+            "obs": 16,
+            "exp_mean": 8.969,
+            "exp_sd": 2.667,
+            "z": 2.636,
+            "p_ge": 0.0111
+          },
+          "in_massey_180": {
+            "obs": 9,
+            "exp_mean": 4.401,
+            "exp_sd": 1.925,
+            "z": 2.39,
+            "p_ge": 0.02364
+          }
+        },
+        "perm_intra_wv_fixed_arcs": {
+          "all_180": {
+            "obs": 29,
+            "exp_mean": 17.486,
+            "exp_sd": 3.511,
+            "z": 3.28,
+            "p_ge": 0.00142
+          },
+          "same_arc_180": {
+            "obs": 13,
+            "exp_mean": 5.926,
+            "exp_sd": 2.074,
+            "z": 3.411,
+            "p_ge": 0.00176
+          },
+          "diff_arc_180": {
+            "obs": 16,
+            "exp_mean": 11.56,
+            "exp_sd": 2.883,
+            "z": 1.54,
+            "p_ge": 0.08948
+          },
+          "in_massey_180": {
+            "obs": 9,
+            "exp_mean": 5.584,
+            "exp_sd": 2.035,
+            "z": 1.678,
+            "p_ge": 0.08094
+          }
+        }
+      },
+      "arc_symmetry_180_exact105": {
+        "obs_mean_cosine": 0.9493,
+        "null_mean_cosine": 0.5969,
+        "null_sd_cosine": 0.1328,
+        "exact_rank_cosine": 2,
+        "exact_p_cosine": 0.01905,
+        "obs_mean_abs_diff": 0.2218,
+        "null_mean_abs_diff": 0.7619,
+        "exact_rank_abs_diff": 1,
+        "exact_p_abs_diff": 0.00952
+      },
+      "lag31_localization": {
+        "total_matches_of_56": 11,
+        "l1_l2_early_17": 1,
+        "l1_l2_late_12": 6,
+        "l2_l3_27": 4,
+        "l1_late_slice": [
+          "F2",
+          "C2",
+          "E3",
+          "E3",
+          "F2",
+          "B1",
+          "H1",
+          "H2",
+          "H1",
+          "C1",
+          "B3",
+          "F3"
+        ],
+        "l2_late_slice": [
+          "F2",
+          "C2",
+          "G2",
+          "F3",
+          "F1",
+          "B1",
+          "H1",
+          "D1",
+          "D1",
+          "H1",
+          "B3",
+          "F3"
+        ],
+        "l1_l2_late_matched_tokens": [
+          {
+            "l1_pos": 18,
+            "l2_pos": 20,
+            "token": "F2"
+          },
+          {
+            "l1_pos": 19,
+            "l2_pos": 21,
+            "token": "C2"
+          },
+          {
+            "l1_pos": 23,
+            "l2_pos": 25,
+            "token": "B1"
+          },
+          {
+            "l1_pos": 24,
+            "l2_pos": 26,
+            "token": "H1"
+          },
+          {
+            "l1_pos": 28,
+            "l2_pos": 30,
+            "token": "B3"
+          },
+          {
+            "l1_pos": 29,
+            "l2_pos": 31,
+            "token": "F3"
+          }
+        ]
+      }
+    },
+    "Pelling_2012": {
+      "name": "Pelling_2012",
+      "basic": {
+        "n_tokens": 87,
+        "unique_symbols": 20,
+        "ic": 0.0572,
+        "doubles": 4,
+        "reversed_digrams": 12,
+        "chi2_ori_arc": 41.707,
+        "p_ori_arc": 0.000138,
+        "ori_arc_matrix": {
+          "A": [
+            1,
+            1,
+            7
+          ],
+          "B": [
+            5,
+            6,
+            4
+          ],
+          "C": [
+            5,
+            8,
+            1
+          ],
+          "D": [
+            4,
+            1,
+            0
+          ],
+          "E": [
+            0,
+            0,
+            4
+          ],
+          "F": [
+            3,
+            10,
+            8
+          ],
+          "G": [
+            5,
+            5,
+            1
+          ],
+          "H": [
+            6,
+            2,
+            0
+          ]
+        },
+        "mean_arc_by_ori": {
+          "A": 2.667,
+          "B": 1.933,
+          "C": 1.714,
+          "D": 1.2,
+          "E": 3.0,
+          "F": 2.238,
+          "G": 1.636,
+          "H": 1.25
+        }
+      },
+      "wv_segregation": {
+        "n_W": 61,
+        "pct_W": 70.11,
+        "n_V": 26,
+        "crossings": 18,
+        "expected": 36.46,
+        "sd": 3.877,
+        "z_wv": -4.761,
+        "top5_partitions": [
+          {
+            "group_a": "ADEH",
+            "group_b": "BCFG",
+            "crossings": 18,
+            "expected": 36.46,
+            "z": -4.761
+          },
+          {
+            "group_a": "ABDH",
+            "group_b": "CEFG",
+            "crossings": 30,
+            "expected": 42.53,
+            "z": -2.765
+          },
+          {
+            "group_a": "ACDH",
+            "group_b": "BEFG",
+            "crossings": 30,
+            "expected": 42.21,
+            "z": -2.714
+          },
+          {
+            "group_a": "ACDE",
+            "group_b": "BFGH",
+            "crossings": 32,
+            "expected": 40.46,
+            "z": -1.963
+          },
+          {
+            "group_a": "ACEH",
+            "group_b": "BDFG",
+            "crossings": 34,
+            "expected": 41.84,
+            "z": -1.759
+          }
+        ],
+        "all_35_z_values": [
+          -4.761,
+          -2.765,
+          -2.714,
+          -1.963,
+          -1.759,
+          -1.62,
+          -1.596,
+          -1.492,
+          -1.39,
+          -1.38,
+          -1.138,
+          -1.035,
+          -0.662,
+          -0.615,
+          -0.558,
+          -0.489,
+          -0.323,
+          -0.313,
+          -0.107,
+          0.572,
+          0.647,
+          0.647,
+          0.972,
+          0.983,
+          0.983,
+          1.005,
+          1.038,
+          1.139,
+          1.403,
+          1.519,
+          1.831,
+          1.835,
+          2.016,
+          2.893,
+          3.142
+        ],
+        "f_to_v_contacts": {
+          "obs": 0,
+          "total_f_contacts": 42,
+          "exp_mean": 12.56,
+          "p_le": 0.0
+        }
+      },
+      "massey_runs": [
+        {
+          "line": 1,
+          "start_1based": 1,
+          "end_1based": 13,
+          "length_glyphs": 13,
+          "length_transitions": 12
+        },
+        {
+          "line": 2,
+          "start_1based": 1,
+          "end_1based": 10,
+          "length_glyphs": 10,
+          "length_transitions": 9
+        },
+        {
+          "line": 3,
+          "start_1based": 4,
+          "end_1based": 12,
+          "length_glyphs": 9,
+          "length_transitions": 8
+        }
+      ],
+      "flips_180": {
+        "all_86": 26,
+        "intra_84": 25,
+        "same_arc": {
+          "count": 12,
+          "total": 27,
+          "pct": 44.44
+        },
+        "diff_arc": {
+          "count": 14,
+          "total": 59,
+          "pct": 23.73
+        },
+        "in_massey_runs": {
+          "count": 8,
+          "total": 29,
+          "pct": 27.59
+        },
+        "out_massey_runs": {
+          "count": 18,
+          "total": 57,
+          "pct": 31.58
+        },
+        "fisher_same_vs_diff": {
+          "odds_ratio": 2.571,
+          "p": 0.07599
+        },
+        "fisher_in_vs_out_massey": {
+          "odds_ratio": 0.825,
+          "p": 0.80628
+        },
+        "perm_free_token": {
+          "all_180": {
+            "obs": 26,
+            "exp_mean": 12.561,
+            "exp_sd": 3.184,
+            "z": 4.221,
+            "p_ge": 0.0001
+          },
+          "same_arc_180": {
+            "obs": 12,
+            "exp_mean": 5.241,
+            "exp_sd": 2.198,
+            "z": 3.075,
+            "p_ge": 0.0055
+          },
+          "diff_arc_180": {
+            "obs": 14,
+            "exp_mean": 7.32,
+            "exp_sd": 2.48,
+            "z": 2.694,
+            "p_ge": 0.01062
+          }
+        },
+        "perm_ori_fixed_arcs": {
+          "diff_arc_180": {
+            "obs": 14,
+            "exp_mean": 8.605,
+            "exp_sd": 2.639,
+            "z": 2.044,
+            "p_ge": 0.03794
+          },
+          "in_massey_180": {
+            "obs": 8,
+            "exp_mean": 4.231,
+            "exp_sd": 1.895,
+            "z": 1.989,
+            "p_ge": 0.0504
+          }
+        },
+        "perm_intra_wv_fixed_arcs": {
+          "all_180": {
+            "obs": 26,
+            "exp_mean": 17.071,
+            "exp_sd": 3.528,
+            "z": 2.531,
+            "p_ge": 0.01036
+          },
+          "same_arc_180": {
+            "obs": 12,
+            "exp_mean": 5.802,
+            "exp_sd": 2.076,
+            "z": 2.986,
+            "p_ge": 0.00446
+          },
+          "diff_arc_180": {
+            "obs": 14,
+            "exp_mean": 11.27,
+            "exp_sd": 2.885,
+            "z": 0.946,
+            "p_ge": 0.2167
+          },
+          "in_massey_180": {
+            "obs": 8,
+            "exp_mean": 5.464,
+            "exp_sd": 2.022,
+            "z": 1.254,
+            "p_ge": 0.1554
+          }
+        }
+      },
+      "arc_symmetry_180_exact105": {
+        "obs_mean_cosine": 0.9696,
+        "null_mean_cosine": 0.5909,
+        "null_sd_cosine": 0.1366,
+        "exact_rank_cosine": 1,
+        "exact_p_cosine": 0.00952,
+        "obs_mean_abs_diff": 0.1915,
+        "null_mean_abs_diff": 0.7753,
+        "exact_rank_abs_diff": 1,
+        "exact_p_abs_diff": 0.00952
+      },
+      "lag31_localization": {
+        "total_matches_of_56": 10,
+        "l1_l2_early_17": 1,
+        "l1_l2_late_12": 6,
+        "l2_l3_27": 3,
+        "l1_late_slice": [
+          "F2",
+          "C2",
+          "E3",
+          "E3",
+          "G2",
+          "B1",
+          "H1",
+          "H2",
+          "H1",
+          "C1",
+          "B3",
+          "F3"
+        ],
+        "l2_late_slice": [
+          "F2",
+          "C2",
+          "G2",
+          "F3",
+          "F1",
+          "B1",
+          "H1",
+          "D1",
+          "D1",
+          "H1",
+          "B3",
+          "F3"
+        ],
+        "l1_l2_late_matched_tokens": [
+          {
+            "l1_pos": 18,
+            "l2_pos": 20,
+            "token": "F2"
+          },
+          {
+            "l1_pos": 19,
+            "l2_pos": 21,
+            "token": "C2"
+          },
+          {
+            "l1_pos": 23,
+            "l2_pos": 25,
+            "token": "B1"
+          },
+          {
+            "l1_pos": 24,
+            "l2_pos": 26,
+            "token": "H1"
+          },
+          {
+            "l1_pos": 28,
+            "l2_pos": 30,
+            "token": "B3"
+          },
+          {
+            "l1_pos": 29,
+            "l2_pos": 31,
+            "token": "F3"
+          }
+        ]
+      }
+    }
+  },
+  "en_masc_min_z_calibration": {
+    "n_controls": 1000,
+    "mean_min_z": -1.805,
+    "sd_min_z": 0.62,
+    "worst_min_z": -4.052,
+    "count_le_dorabella": 0,
+    "p_corrected_upper": 0.001
+  }
+}
